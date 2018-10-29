@@ -12,7 +12,7 @@ go get github.com/khainguyen95/pmt
 ## Console Application Usage
 Run `$pmt` to view list command support:
 ```
-Pmt is a CLI library for Go that empowers applications. This application is a tool to manage your password.
+Pmt is a tool to manage your application with sensitive data.
 
 Usage:
   pmt [command]
