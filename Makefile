@@ -32,10 +32,10 @@ $(WINDOWS):
 	env GOOS=windows CC=x86_64-w64-mingw32-gcc CGO_ENABLED=1 GOARCH=amd64 go build -i -v -o ./build/$(WINDOWS)
 
 $(LINUX):
-	env GOOS=linux CGO_ENABLED=1 GOARCH=amd64 go build -i -v -o ./build/$(LINUX)
+	env GOOS=linux CGO_ENABLED=0 GOARCH=amd64 go build -i -v -o ./build/$(LINUX)
 
 $(DARWIN):linux
-	env GOOS=darwin CGO_ENABLED=1 GOARCH=amd64 go build -i -v -o ./build/$(DARWIN)
+	env GOOS=darwin CGO_ENABLED=0  GOARCH=amd64 go build -i -v -o ./build/$(DARWIN)
 
 clean: ## Remove previous build
 	rm -rf ./build
