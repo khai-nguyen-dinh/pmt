@@ -1,5 +1,5 @@
 # PMT - Password Management Tool
-
+ [![Release](https://img.shields.io/github/release/khainguyen95/pmt.svg?style=flat-square)](https://github.com/khainguyen95/pmt/releases)
 ## What is PMT?
 
 Pmt is a tool where you can It can be used to save and manage passwords, private notes, burglar alarm codes, credit and debit card details, PINs, software keys, …
