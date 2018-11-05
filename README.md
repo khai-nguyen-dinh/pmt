@@ -48,7 +48,12 @@ $ pmt config list <username>
 
 - Add new application:
 ```
+$ pmt create --application=<name> --password=<password>
+```
+- Or you can add many other sensitive information.
+```
 $ pmt create --application=<name> --password=<password> --other=<field1>:value1|<field2>:value2
+Ex: pmt create --application=foo --password=xxx --other=public_key:xxx|private_key:xxx
 ```
 - View list application of current user (require password current user):
 ```
