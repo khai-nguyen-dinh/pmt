@@ -27,7 +27,7 @@ import (
 var rootCmd = &cobra.Command{
 	Use:   "pmt",
 	Short: "Password management tool.",
-	Long:  `Pmt is a CLI library for Go that empowers applications. This application is a tool to manage your password.`,
+	Long:  `Pmt is a tool to manage your sensitive information.`,
 }
 
 // Execute adds all child commands to the root command and sets flags appropriately.
